@@ -15,18 +15,18 @@
     <!---------------------------------------------------------------->
     <!------------------------start Nav bar--------------------------->
     <!---------------------------------------------------------------->
-    <header>
+    <header class="sticky-top">
         <section class="nav_bar sticky-top"id="nav_bar_sec"> 
-            <nav class="navbar navbar-expand-lg sticky-top ">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png " alt="MR logo"></a>
+                <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="MR logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">about</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="" class="nav-item btn resume">Resume</a>
+                        <a href="" class="nav-item btn resume ms-5">Resume</a>
                     </li>
                 </ul>
                 </div>
@@ -55,20 +55,24 @@
     <!---------------------------------------------------------------->
     <!------------------------start home=----------------------------->
     <!---------------------------------------------------------------->
-
-<div class="container home ">
-    <img src="/img/Me1.jpg" class="col-sm-12 col-lg-4 float-md-end mb-3 ms-sm-3 mt-5 rounded-pill" alt="Mohamed Ramadan Photo">
-    <div class="content mt-5">
-        <h2>Hello!</h2>
-        <h1>I'm <span class="text-transparent  bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">Mohamed Ramadan</span></h1>
-        <p>WECOME TO MY PRTOFOLIO</p>
-        <P>SOFTWARE ENGINEER</P>
-        <P>I'm looking for a jop as a full-stack devolper or an intership in software engineerin</P>
-        <a href="" class="btn"> <span>WHO</span> Mohamed Ramadan !</a>
-        <a href="" class="btn">Download My Resume</a>
+<section id="home">
+    <div class="container home ">
+        <div class="home-right">
+            <img src="/img/Me1.jpg" class="col-sm-12 col-lg-4 float-md-end mb-3 ms-sm-3 mt-5 rounded-pill" alt="Mohamed Ramadan Photo">
+        </div>
+        <div class="home-left mt-5 justify-content-center">
+            <h2>Hello!</h2>
+            <h1>I'm <span class="name  bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">Mohamed Ramadan</span></h1>
+            <p>WECOME TO MY PRTOFOLIO</p>
+            <P class="job">SOFTWARE ENGINEER</P>
+            <P>I'm looking for a jop as a full-stack devolper or an intership in software engineerin</P>
+            <a href="" class="btn who-me "> <span class="who-span">WHO</span> Mohamed Ramadan !</a>
+            <a href="" class="btn dow-resume ms-sm-0 ms-md-2 ms-lg-4">Download My Resume</a>
+        </div>
+    
     </div>
+</section>
 
-</div>
 
 
     <!---------------------------------------------------------------->
