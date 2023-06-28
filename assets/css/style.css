@@ -6,13 +6,12 @@
     --bd-accent-rgb: 255,228,132;
     --bd-pink-rgb: 214,51,132;
     --bd-teal-rgb: 32,201,151;
-    --bd-violet-bg: var(--bd-violet);
-    --bd-toc-color: var(--bd-violet);
     --bd-sidebar-link-bg: rgba(var(--bd-violet-rgb), .1);
-    --bd-callout-link: 10,88,202;
     --bd-callout-code-color: #ab296a;
-    --bd-pre-bg: var(--bs-tertiary-bg);
     --body-color: #212529;
+    --body-color-gray:#2b3035;
+    --p-color:#adb5bd; 
+
 }
 body {
     margin: 0;
@@ -52,7 +51,6 @@ body {
     width: 150px;
     height: 40px;
 }
-
 
 /********************************************************/
 /***********************end navbar***********************/
@@ -115,9 +113,9 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 /* home media  */
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
 
-.home-left h1 {
+.home-left h1{
     font-size: 40px;
     } 
 .dow-resume{
@@ -128,3 +126,29 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 /********************************************************/
 /***********************end home*************************/
 /********************************************************/
+
+/* <!---------------------------------------------------------------->
+<!-----------------------start about me--------------------------->
+<!----------------------------------------------------------------> */
+.about_me{
+    background-color: var(--body-color-gray);
+}
+.about_me .right img{
+    max-width: 100%;
+    height: 100%;
+}
+.about_me .left h2{
+    font-size: 30px;
+}
+.about_me .left h1{
+    font-size: 20px;
+}
+.about_me .left p{
+    font-size: 18px;
+    font-weight: 5px;
+    color: var(--p-color);
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+/* <!---------------------------------------------------------------->
+<!------------------------end about me---------------------------->
+<!----------------------------------------------------------------> */
