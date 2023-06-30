@@ -183,3 +183,38 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 /* <!---------------------------------------------------------------->
 <!------------------------end skills -------------------------------->
 <!----------------------------------------------------------------> */
+
+
+/* <!---------------------------------------------------------------->
+<!------------------------start more_skills-------------------------->
+<!----------------------------------------------------------------> */
+.more_skills{
+    max-width: 100%;
+    background-color: var(--body-color-gray);
+}
+.more_skills .mem_img{
+    width: 100%;
+    /* opacity: 0.5; */
+}
+.more_skills .bg-image{
+    background-image: url(../../img/mem_img1.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+
+}
+.bg-image h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+/* .more_skills .programming_lan div{
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 50px;
+    background-color: var(--body-color);
+} */
+/* <!---------------------------------------------------------------->
+<!------------------------start more_skills-------------------------->
+<!----------------------------------------------------------------> */
