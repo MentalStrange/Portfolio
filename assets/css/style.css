@@ -69,8 +69,12 @@ body {
 
 .home img {
   max-width: 100%;
-  /* max-height: 500px; */
-}
+	background: url("../../img/abstract-textured-backgound.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px 430px;
+	background-position: center bottom;
+} 
+
 .home-left {
   height: 100%;
   max-width: 100%;
@@ -183,6 +187,7 @@ body {
   }
   .home img {
     justify-content: center;
+			background-size: 1000px 420px;
   }
 }
 @media (min-width: 481px) {
