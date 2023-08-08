@@ -69,11 +69,17 @@ body {
 
 .home img {
   max-width: 100%;
-	background: url("../../img/abstract-textured-backgound.jpg");
-	background-repeat: no-repeat;
-	background-size: 1000px 430px;
-	background-position: center bottom;
 } 
+.job{
+	font-size: 30px;
+}
+.home-txt {
+	font-size: 20px;
+	color: var(--p-color);
+}
+.home-welcome-txt{
+	color: var(--bd-accent);
+}
 
 .home-left {
   height: 100%;
@@ -87,11 +93,12 @@ body {
   font-size: 60px;
 }
 .name {
-  border-radius: 10px;
+  border-radius: 30px 8px;
   font-weight: bolder;
   color: white;
   background-color: #21d4fd;
   background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+	padding: 0px 7px;
 }
 
 .resume {
@@ -151,6 +158,7 @@ body {
 }
 .home-btn {
   vertical-align: middle;
+	margin-top: 20px !important;
 }
 .home-left .who-me {
   color: white;
@@ -185,10 +193,17 @@ body {
   .dow-resume {
     margin-top: 10px;
   }
-  .home img {
+  /* .home img {
     justify-content: center;
 			background-size: 1000px 420px;
-  }
+  } */
+	.name{
+		font-size: 28px;
+
+	}
+	.home-txt{
+		font-size: 17px;
+	}
 }
 @media (min-width: 481px) {
   .who-me {
@@ -342,12 +357,7 @@ body {
   font-size: 60px;
   font-weight: bold;
 }
-/* .more_skills .programming_lan div{
-    border: 1px solid white;
-    padding: 1rem;
-    margin: 50px;
-    background-color: var(--body-color);
-} */
+
 /* <!---------------------------------------------------------------->
 <!------------------------start more_skills-------------------------->
 <!----------------------------------------------------------------> */
