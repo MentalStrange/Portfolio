@@ -562,14 +562,22 @@ color: var(--bd-purple);
 #button{
 	color: white ;
 	background-color: var(--bd-purple);
+	margin-top: 17px;
 }
 #button:hover{
-	background-color: var(--bd-callout-code-color);
+	background-color: #009FBD;
 }
-.form input , .form textarea{
+.form input {
 	background-color:var(--body-color-gray);
 border: 1px solid var(--body-color-gray);
 margin-bottom: 13px;
+}
+.form textarea{
+		background-color:var(--body-color-gray);
+		border: 1px solid var(--body-color-gray);
+		margin: 5px 0px;	
+		color: white;
+	
 }
 
 .send-message-btn{
@@ -580,4 +588,6 @@ margin-bottom: 13px;
 .send-message-btn:hover{
 	background-color: var(--bd-callout-code-color) !important;
 }
-
+.form h1{
+	color: #009FBD;
+}

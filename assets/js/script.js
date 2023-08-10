@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const btn = document.getElementById("button");
-
-    document
-        .getElementById("send")
-        .addEventListener("submit", function (event) {
+		const form = document.getElementById("send");
+        form.addEventListener("submit", function (event) {
             event.preventDefault();
 
             btn.value = "Sending...";
@@ -14,12 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
             emailjs.sendForm(serviceID, templateID, this).then(
                 () => {
                     btn.value = "Send Email";
-                    alert("Sent!");
+                    event.reset();
                 },
                 (err) => {
                     btn.value = "Send Email";
                     alert(JSON.stringify(err));
                 }
             );
+            form.reset();
         });
 });
