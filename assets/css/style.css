@@ -559,3 +559,25 @@ color: var(--bd-purple);
 /* <!---------------------------------------------------------------->
 <!------------------------ end footer ------------------------------->
 <!----------------------------------------------------------------> */
+#button{
+	color: white ;
+	background-color: var(--bd-purple);
+}
+#button:hover{
+	background-color: var(--bd-callout-code-color);
+}
+.form input , .form textarea{
+	background-color:var(--body-color-gray);
+border: 1px solid var(--body-color-gray);
+margin-bottom: 13px;
+}
+
+.send-message-btn{
+	background-color: var(--bd-purple) !important;
+	color: white !important;
+	margin-top: 10px;
+}
+.send-message-btn:hover{
+	background-color: var(--bd-callout-code-color) !important;
+}
+

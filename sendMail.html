@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html data-bs-theme="light">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- titlle icon -->
+    <link rel="icon" href="img/icon_logo.jpg" type="image/icon type">
+    <!-- // css files -->
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/buttons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/all.min.css'>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- // script files  -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src='assets/js/script.js'></script>
+    <script src='assets/js/all.min.js'></script>
+</head>
+<body>
+	<div class="container form">
+		<form class="p-2" id="send-mail"> 
+			<div class="form-row row">
+				<div class="form-group col-md-6 col-lg-6 col-sm-12">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name" placeholder="Your Name..." name="from_name">
+				</div>
+				<div class="form-group col-md-6 col-lg-6 col-sm-12">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" id="email" placeholder="Your Email..." name="from_email">
+				</div>
+			</div>
+			<div class="">
+				<div class="form-group  ">
+					<label for="inputAddress">Address</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="address">
+				</div>
+			</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<textarea class="form-control" id="Message" rows="3" name="message"></textarea>
+		</div>
+			<input type="submit" class="send-message-btn btn" id="submit" value="Send Email">
+		</form>
+	</div>
+
+</body>
+
+
+
